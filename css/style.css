@@ -1,6 +1,8 @@
-*{
+body{
     background-color: #f0f2f5;
 }
+
+/* login page */
 .loginpage{
     padding-left: 15%;
     padding-right: 15%;
@@ -14,11 +16,34 @@
 
 .cot2{
     padding-top: 8%;
-    text-align: center;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 15px;
+    
+    text-align: center;
+}
+
+
+.left{
+    text-align: left;
 }
 
 .loginbtn{
     width: 100%;
+}
+
+
+
+/* reg */
+.regPage{
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    padding: 5%;
+    border-radius: 15px;
+}
+
+.regBtn{
+    width:50%;
+    height: 50px;
 }
