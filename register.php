@@ -1,6 +1,7 @@
 <?php include 'head.php' ?>
 <div class = "regPage">
-    <form class = "row" action = "reg_process.php" method = "POST">
+    <a href="index.php"><i class="fas fa-arrow-left"></i></a> Back
+    <form class = "row" action = "reg_process.php" method = "POST">,
         <div class="col" >
             <div class="form-group">
                 <label >Email:</label>

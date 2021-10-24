@@ -10,27 +10,22 @@ body{
 }
 
 .cot1{
-    background-color: aquamarine;
-    padding: 20%;
+    margin-right:35%;
+    margin-top:7%;
+
 }
 
 .cot2{
     padding-top: 8%;
+    padding-bottom: 8%;
     background-color: white;
     border-radius: 15px;
-    
     text-align: center;
-}
-
-
-.left{
-    text-align: left;
 }
 
 .loginbtn{
     width: 100%;
 }
-
 
 
 /* reg */

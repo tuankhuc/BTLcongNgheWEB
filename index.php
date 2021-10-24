@@ -2,7 +2,8 @@
 <div class = "loginpage row">
     
     <div class="cot1 col">
-        something will be here.
+        <h1>GenZ.</h1>
+        <h3>Create your own website, connect and share your article to the wide world.<h3>
     </div>
 
     <form class="cot2 col" action = "login_process.php" method = "POST">
