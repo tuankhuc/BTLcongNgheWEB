@@ -1,0 +1,24 @@
+*{
+    background-color: #f0f2f5;
+}
+.loginpage{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+}
+
+.cot1{
+    background-color: aquamarine;
+    padding: 20%;
+}
+
+.cot2{
+    padding-top: 8%;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.loginbtn{
+    width: 100%;
+}
