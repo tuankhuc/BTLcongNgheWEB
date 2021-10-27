@@ -31,20 +31,20 @@
         die("Không thể kết nối");
     }
     $nguoiGui = $_SESSION["username"];
-    $_SESSION["nguoiNhan"] = $_GET['id'];
-    
-    // $sql = "SELECT * FROM msg WHERE (sendID = '$nguoiGui' and receiveID = '$nguoiNhan') or(sendID = '$nguoiNhan' and receiveID = '$nguoiGui')";
-    $sql = "SELECT * FROM msg";
+    $nguoiNhan = $_GET['id'];
+    $_SESSION["nguoiNhan"] = $nguoiNhan;
+
+    $sql = "SELECT * FROM msg WHERE (sendID = '$nguoiGui' and receiveID = '$nguoiNhan') or (sendID = '$nguoiNhan' and receiveID = '$nguoiGui')";
     $result = mysqli_query($conn, $sql);
 
-    echo "<h2>Ban dang nhan tin</h2>";
+    echo "<h2>$nguoiNhan</h2>";
     echo "--------------------------------------------------";
 ?>
 
 
 <!-- interface -->
 <div class = "col-4">
-    <?php
+  <?php
     if (mysqli_num_rows($result)>0){
         while ($row = mysqli_fetch_assoc($result)){
             if ($row['sendID'] == $nguoiGui){
@@ -59,7 +59,8 @@
         }
     }
     ?>
-    <form action = "msg_process.php?id=" method = "POST">
+    
+    <form  action ="msg_process.php"method = "POST">
         <input type="text" class="form-control" placeholder="Type something..." name= "content">
     </form>
 </div>

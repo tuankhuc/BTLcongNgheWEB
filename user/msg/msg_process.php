@@ -14,5 +14,5 @@
     echo $sql;
     $result = mysqli_query($conn, $sql);
     
-    header("Location:msg_ing.php");
+    header("Location:msg_form.php?id=$nguoiNhan");
 ?>

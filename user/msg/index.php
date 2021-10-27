@@ -46,7 +46,7 @@
     <?php
       while ($row = mysqli_fetch_assoc($result)){
           if ($row['username'] != $_SESSION["username"]){
-              echo '<li><a class="dropdown-item" href="msg_ing.php?id='.$row['username'].'">'.$row['username'].'</a></li>';
+              echo '<li><a class="dropdown-item" href="msg_form.php?id='.$row['username'].'">'.$row['username'].'</a></li>';
           }
       }
     ?>
