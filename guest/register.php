@@ -3,8 +3,8 @@
     <form action = "reg_process.php" method = "POST">,
       
         <div class="form-group">
-            <label >Email:</label>
-            <input type="email" class="form-control" name="username" aria-describedby="emailHelp">
+            <label >Username:</label>
+            <input type="text" class="form-control" name="username">
         </div><br>
         <div class="form-group">
             <label >Password:</label>
@@ -14,7 +14,6 @@
             <label >Password again:</label>
             <input type="password" class="form-control" name="password2">
         </div><br>
-        
     
         <button class = "btn btn-info" type="submit" name="btnReg">Register</button>
 
