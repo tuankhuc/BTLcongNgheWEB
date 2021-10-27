@@ -8,7 +8,7 @@
 
     <form class="cot2 col" action = "guest/login_process.php" method = "POST">
         <div class="form-group">
-            <input type="email" class="form-control" name="username" aria-describedby="emailHelp" placeholder="Enter email">
+            <input type="text" class="form-control" name="username" aria-describedby="emailHelp" placeholder="Username">
         </div><br>
 
         <div class="form-group">
